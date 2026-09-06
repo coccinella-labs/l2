@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/basebin/l2/main/.github/assets/thumbnail.png" alt="l2" width="100%">
+  <img src="https://raw.githubusercontent.com/Coccinella-Labs/l2/main/.github/assets/thumbnail.png" alt="l2" width="100%">
 </p>
 
 # Friday Gemini AI
