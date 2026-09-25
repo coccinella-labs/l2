@@ -79,7 +79,7 @@ end
 - Best practices discussions
 
 **How to participate:**
-1. Visit the [GitHub Discussions](https://github.com/your-username/friday_gemini_ai/discussions)
+1. Visit the [GitHub Issues](https://github.com/coccinella-labs/l2/issues)
 2. Search existing discussions before creating new ones
 3. Use clear, descriptive titles
 4. Provide context and examples
@@ -294,4 +294,4 @@ For critical production issues:
 
 ---
 
-**Ready to get involved?** Start by joining our [GitHub Discussions](https://github.com/your-username/friday_gemini_ai/discussions) and introducing yourself!
+**Ready to get involved?** Start by joining our [GitHub Issues](https://github.com/coccinella-labs/l2/issues) and introducing yourself!

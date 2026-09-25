@@ -4,10 +4,10 @@
 
 # Friday Gemini AI
 
-[![CI](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/ci.yml/badge.svg)](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/ci.yml)
-[![Security](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/security.yml/badge.svg)](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/security.yml)
-[![Dependencies](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/dependencies.yml/badge.svg)](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/dependencies.yml)
-[![HarperBot](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/harperbot.yml/badge.svg)](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/harperbot.yml)
+[![CI](https://github.com/coccinella-labs/l2/actions/workflows/ci.yml/badge.svg)](https://github.com/coccinella-labs/l2/actions/workflows/ci.yml)
+[![Security](https://github.com/coccinella-labs/l2/actions/workflows/security.yml/badge.svg)](https://github.com/coccinella-labs/l2/actions/workflows/security.yml)
+[![Dependencies](https://github.com/coccinella-labs/l2/actions/workflows/dependencies.yml/badge.svg)](https://github.com/coccinella-labs/l2/actions/workflows/dependencies.yml)
+[![HarperBot](https://github.com/coccinella-labs/l2/actions/workflows/harperbot.yml/badge.svg)](https://github.com/coccinella-labs/l2/actions/workflows/harperbot.yml)
 
 Ruby gem for integrating with Google's Gemini AI models.
 
@@ -54,7 +54,7 @@ Once those requirements are met, the centralized HarperBot instance receives web
 ### Workflow Mode (Legacy)
 - Repository-specific GitHub Actions workflow
 - Requires secrets setup per repository
-- Automated setup: `curl -fsSL https://raw.githubusercontent.com/bniladridas/friday_gemini_ai/main/bin/setup-harperbot | bash` (use `--update` to update, `--dry-run` to preview)
+- Automated setup: `curl -fsSL https://raw.githubusercontent.com/coccinella-labs/l2/main/bin/setup-harperbot | bash` (use `--update` to update, `--dry-run` to preview)
 - **Note:** This is legacy mode for existing users. New installations should use Webhook Mode for better scalability and centralized management
 
 For detailed setup instructions, see [harperbot/HarperBot.md](harperbot/HarperBot.md).
@@ -65,7 +65,7 @@ The full API of this library can be found in [docs/reference/api.md](docs/refere
 
 ### Basic Setup
 
-**Security Note for Automated Setup:** The recommended `curl | bash` method downloads and executes code from the internet. For security, review the script at https://github.com/bniladridas/friday_gemini_ai/blob/main/bin/setup-harperbot before running. Alternatively, download first: `curl -O https://raw.githubusercontent.com/bniladridas/friday_gemini_ai/main/bin/setup-harperbot`, inspect, then `bash setup-harperbot`.
+**Security Note for Automated Setup:** The recommended `curl | bash` method downloads and executes code from the internet. For security, review the script at https://github.com/coccinella-labs/l2/blob/main/bin/setup-harperbot before running. Alternatively, download first: `curl -O https://raw.githubusercontent.com/coccinella-labs/l2/main/bin/setup-harperbot`, inspect, then `bash setup-harperbot`.
 
 ```ruby
 require 'friday_gemini_ai'
@@ -200,7 +200,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://github.com/bniladridas/friday_gemini_ai/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://github.com/coccinella-labs/l2/issues) with questions, bugs, or suggestions.
 
 ## Requirements
 

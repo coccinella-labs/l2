@@ -109,7 +109,7 @@ Add these secrets in repository settings:
 
 Add to README.md:
 ```markdown
-[![CI](https://github.com/bniladridas/friday_gemini_ai/workflows/CI/badge.svg)](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/ci.yml)
-[![Security](https://github.com/bniladridas/friday_gemini_ai/workflows/Security/badge.svg)](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/security.yml)
-[![HarperBot](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/harperbot.yml/badge.svg)](https://github.com/bniladridas/friday_gemini_ai/actions/workflows/harperbot.yml)
+[![CI](https://github.com/coccinella-labs/l2/actions/workflows/ci.yml/badge.svg)](https://github.com/coccinella-labs/l2/actions/workflows/ci.yml)
+[![Security](https://github.com/coccinella-labs/l2/actions/workflows/security.yml/badge.svg)](https://github.com/coccinella-labs/l2/actions/workflows/security.yml)
+[![HarperBot](https://github.com/coccinella-labs/l2/actions/workflows/harperbot.yml/badge.svg)](https://github.com/coccinella-labs/l2/actions/workflows/harperbot.yml)
 ```

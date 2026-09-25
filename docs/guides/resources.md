@@ -11,7 +11,7 @@ Additional resources, links, and references for Friday Gemini AI.
 - [API Pricing](https://ai.google.dev/pricing) - Current pricing information
 
 ### Friday Gemini AI Documentation
-- [GitHub Repository](https://github.com/your-username/friday_gemini_ai) - Source code and issues
+- [GitHub Repository](https://github.com/coccinella-labs/l2) - Source code and issues
 - [RubyGems Page](https://rubygems.org/gems/friday_gemini_ai) - Gem installation and versions
 - [API Reference](../reference/api.md) - Complete method documentation
 - [Usage Guide](../reference/usage.md) - Comprehensive examples
@@ -254,7 +254,7 @@ messages = [
 ### Development Setup
 ```bash
 # Clone repository
-git clone https://github.com/your-username/friday_gemini_ai.git
+git clone https://github.com/coccinella-labs/l2.git
 cd friday_gemini_ai
 
 # Install dependencies
