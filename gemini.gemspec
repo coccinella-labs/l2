@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
   spec.name        = 'friday_gemini_ai'
   spec.version     = File.read(File.expand_path('lib/core/version.rb', __dir__)).match(/VERSION = ['"](.*)['"]/)[1]
-  spec.authors     = ['Niladri Das']
-  spec.email       = ['bniladridas@gmail.com']
+  spec.authors     = ['Coccinella Labs']
+  spec.email       = ['maintainers@coccinella-labs.com']
   spec.summary     = "A Ruby gem for interacting with Google's Gemini AI models"
   spec.description = "Provides easy text generation capabilities using Google's Gemini AI models"
-  spec.homepage    = 'https://github.com/bniladridas/friday_gemini_ai'
+  spec.homepage    = 'https://github.com/coccinella-labs/l2'
   spec.license     = 'MIT'
   spec.required_ruby_version = '>= 3.1.0'
 

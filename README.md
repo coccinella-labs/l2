@@ -11,12 +11,25 @@
 
 Ruby gem for integrating with Google's Gemini AI models.
 
+> Newer generation: [vesper](https://github.com/coccinella-labs/vesper) targets the
+> `v1beta` API with Gemini 3.x models. This repo targets the stable `v1` API with
+> Gemini 2.x models.
+
 The full API of this library can be found in [docs/reference/api.md](docs/reference/api.md).
 
 ## Installation
 
+The gem is not published to RubyGems. Install it from git:
+
 ```bash
-gem install friday_gemini_ai
+gem install specific_install
+gem specific_install -l https://github.com/coccinella-labs/l2
+```
+
+Or with Bundler:
+
+```ruby
+gem 'friday_gemini_ai', github: 'coccinella-labs/l2'
 ```
 
 Set your API key in `.env`:
@@ -310,7 +323,7 @@ permissions:
 ```bash
 bundle exec rake test          # Run tests
 bundle exec rake rubocop       # Optional lint check
-gem build *.gemspec            # Verify build
+gem build gemini.gemspec            # Verify build
 ```
 
 ### Test Workflows Locally

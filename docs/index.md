@@ -4,10 +4,11 @@ A Ruby interface to Google's Gemini AI models, designed for simplicity, security
 
 ## Quick Start
 
-Install the gem:
+Install the gem from git (it is not published to RubyGems):
 
 ```bash
-gem install friday_gemini_ai
+gem install specific_install
+gem specific_install -l https://github.com/coccinella-labs/l2
 ```
 
 Set your API key:
@@ -40,8 +41,6 @@ puts response
 
 ## Links
 
-- [RubyGems](https://rubygems.org/gems/friday_gemini_ai)
-- [Issues](https://github.com/bniladridas/friday_gemini_ai/issues)
-- [Discussions](https://github.com/bniladridas/friday_gemini_ai/discussions)
-- [Security](https://github.com/bniladridas/friday_gemini_ai/blob/main/.github/SECURITY.md)
-- [License](https://github.com/bniladridas/friday_gemini_ai/blob/main/LICENSE)
+- [Issues](https://github.com/coccinella-labs/l2/issues)
+- [Security](https://github.com/coccinella-labs/l2/blob/main/.github/SECURITY.md)
+- [License](https://github.com/coccinella-labs/l2/blob/main/LICENSE)
