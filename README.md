@@ -11,9 +11,11 @@
 
 Ruby gem for integrating with Google's Gemini AI models.
 
-> Newer generation: [vesper](https://github.com/coccinella-labs/vesper) targets the
-> `v1beta` API with Gemini 3.x models. This repo targets the stable `v1` API with
-> Gemini 2.x models.
+> [!NOTE]
+> Newer generations: [vesper](https://github.com/coccinella-labs/vesper) targets the
+> `v1beta` API with Gemini 3.x models, and [nuntius](https://github.com/palmshed/nuntius)
+> targets `v1beta` with Gemini 3.6 and later. This repo targets the stable `v1` API
+> with Gemini 2.x models.
 
 The full API of this library can be found in [docs/reference/api.md](docs/reference/api.md).
 
