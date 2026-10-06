@@ -50,7 +50,7 @@ HarperBot provides automated PR code reviews using Google's Gemini AI. It suppor
 ### Webhook Mode (Recommended)
 This is the preferred deployment path. You need to:
 
-- Install the [HarperBot GitHub App](https://github.com/apps/harper-new-line) and grant it access to the repositories you want to monitor.
+- Install the HarperBot GitHub App and grant it access to the repositories you want to monitor.
 - Provision these secrets (in Vercel or another host) so the webhook server can authenticate with both Gemini and GitHub:
   - `GEMINI_API_KEY`
   - `HARPERBOT_GEMINI_API_KEY` *(optional override)*
@@ -261,7 +261,7 @@ GEMINI_LOG_LEVEL=debug  # debug | info | warn | error
 
 Friday Gemini AI includes a built-in GitHub Actions workflow for automated PR reviews via **HarperBot**, powered by Gemini AI.
 
-💡 **Install the [HarperBot GitHub App](https://github.com/apps/harper-new-line)** for automated PR reviews across repositories.
+💡 **Install the HarperBot GitHub App** for automated PR reviews across repositories.
 
 ### HarperBot – Automated PR Analysis
 
@@ -289,7 +289,7 @@ HarperBot provides AI-driven code review and analysis directly in pull requests.
 **Webhook Mode (Recommended)**
 
 * Deploy to Vercel (production branch)
-* Install the [HarperBot GitHub App](https://github.com/apps/harper-new-line) and grant it access to your repositories
+* Install the HarperBot GitHub App and grant it access to your repositories
 * Set environment variables in Vercel:
   - `GEMINI_API_KEY`: Your Google Gemini API key
   - `HARPER_BOT_APP_ID`: App ID from your GitHub App settings
@@ -402,6 +402,6 @@ MIT – see [LICENSE](LICENSE).
 
 <div align="center">
 
-[<sup>© 2026 Friday Gemini AI • Hand-crafted for Rubyists</sup>](https://bniladridas.github.io/friday_gemini_ai/)
+<sup>© 2026 Friday Gemini AI • Hand-crafted for Rubyists</sup>
 
 </div>

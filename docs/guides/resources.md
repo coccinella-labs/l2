@@ -12,7 +12,6 @@ Additional resources, links, and references for Friday Gemini AI.
 
 ### Friday Gemini AI Documentation
 - [GitHub Repository](https://github.com/coccinella-labs/l2) - Source code and issues
-- [RubyGems Page](https://rubygems.org/gems/friday_gemini_ai) - Gem installation and versions
 - [API Reference](../reference/api.md) - Complete method documentation
 - [Usage Guide](../reference/usage.md) - Comprehensive examples
 
