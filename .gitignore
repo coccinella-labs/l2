@@ -36,9 +36,8 @@ __pycache__/
 .DS_Store
 .env
 
-# Bundle directory (but keep config)
+# Bundle directory (local Bundler state, not part of the repo)
 .bundle/
-!.bundle/config
 vendor/
 
 # Documentation
